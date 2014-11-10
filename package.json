@@ -1,8 +1,9 @@
 {
   "name": "gulp-entity-convert",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Converts Unicode characters to HTML and CSS entities",
   "license": "MIT",
+  "homepage": "https://github.com/louh/gulp-entity-convert/",
   "repository": {
     "type": "git",
     "url": "git://github.com/louh/gulp-entity-convert/"
@@ -12,37 +13,30 @@
     "email": "lou@louhuang.com",
     "url": "http://louhuang.com/"
   },
-  "main": "./index.js",
   "keywords": [
-    "gulpplugin",
     "entity-convert",
-    "entity",
-    "convert",
-    "entities",
-    "conversion",
     "html",
     "css",
     "unicode",
     "utf-8",
-    "utf8",
     "character",
-    "code",
-    "charcode",
-    "encoding",
-    "encode"
+    "encoding"
   ],
   "engines": {
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "gulp-util": "^2.2.14",
-    "entity-convert": "0.0.3",
-    "map-stream": "~0.1.0"
+    "gulp-util": "^3.0.1",
+    "entity-convert": "0.0.4",
+    "map-stream": "~0.0.5"
   },
-  "readme": "",
-  "readmeFilename": "readme.md",
   "bugs": {
     "url": "https://github.com/louh/gulp-entity-convert/issues"
   },
-  "homepage": "https://github.com/louh/gulp-entity-convert/"
+  "scripts": {
+    "test": "mocha"
+  },
+  "readme": "",
+  "readmeFilename": "readme.md",
+  "main": "./index.js"
 }
